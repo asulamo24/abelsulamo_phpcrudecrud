@@ -2,14 +2,4 @@
 
 ## Demonstrates a basic Dynamic HTML Application using PHP
 
-It doesn't get much more crude than this, but is a great starting point for understanding how **dynamic data-driven web applications** work.
-
-Understand how this one works, and more modern/advanced/complex web development frameworks, won't seem so mysterious.
-
-This application assumes the MySQL database has certain users added and an "employees" database based on a sample dataset. Additional details will be provided in class.
-
-The "credentials.php" file above has the details of the MySQL database connection.  You will need to modify this file to work for your configuration
-
-Obviously everything is in the open and unsecure here.
-
-...and obviously change the credentials too...
+This project demonstrates a basic dynamic web application using PHP to perform CRUD (Create, Read, Update, Delete) operations with a MariaDB/MySQL database. It is designed to help users understand how data-driven web applications function and serves as a starting point for exploring modern web development frameworks. The application assumes a pre-configured "employees" database and includes a credentials.php file for database connection details, which must be updated to match your local configuration. While functional, this application is not secure for production use—credentials and sensitive data are exposed in the files. Future improvements could include implementing security best practices, integrating modern frameworks, and enhancing the user interface for a more robust and professional application.
